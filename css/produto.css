@@ -1,0 +1,58 @@
+h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+input{
+    padding: 0.8rem;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 20px;
+}
+
+form button{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #082032;
+    border: none;
+    padding: 0.8rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modalCadastrado{
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 0;
+}
+
+.modalCadastrado p{
+    background-color: #229A00;
+    color: #fff;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    display: block;
+}
+
+.voltar{
+    background-color: #fff;
+    color: #082032;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 10px;
+}

@@ -1,0 +1,105 @@
+#principal{
+    padding: 1rem;
+
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#principal .card{
+    display: flex;
+    color: #082032;
+    padding: 1rem;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+div, p{
+    background-color: #fff;
+}
+
+h2{
+    font-size: 18px;
+    background-color: #fff;
+}
+
+.card{
+    margin-bottom: 1rem;
+}
+
+.card img{
+    width: 100px;
+}
+
+.prod{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info_prod{
+    display: flex;
+    gap: 10px;
+}
+
+.voltar{
+    background-color: #fff;
+    color: #082032;
+    margin: 1rem 0rem 1rem 1rem ;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.apagarProduto{
+    color: #fff;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.modalApagarProduto{
+   display: none;
+   padding: 2rem;
+   background-color: #229A00;
+   position: absolute;
+   width: 100%;
+}
+
+.modalApagarProduto p {
+    display: block;
+    background-color: #229A00;
+    color: #fff;
+    text-align: center;
+}
+
+.linksAlteracoes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.modalAtualizarProduto{
+    display: none;
+    padding: 2rem;
+    background-color: #229A00;
+    position: absolute;
+    width: 100%;
+ }
+ 
+ .modalAtualizarProduto p {
+     display: block;
+     background-color: #229A00;
+     color: #fff;
+     text-align: center;
+ }
